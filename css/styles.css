@@ -1,0 +1,304 @@
+/* ===============COMPONENTS=============== */
+:root {
+  --main-font: "Roboto", sans-serif;
+  --secondary-font: "Raleway", sans-serif;
+  --accent-color: #2196f3;
+  --secondary-color: #212121;
+  --white-color: #ffffff;
+  --black-color: #000000;
+  --gray-color: #757575;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul,
+ol,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+}
+
+.visually-hidden {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
+}
+.title {
+  font-family: var(--main-font);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: var(--secondary-color);
+}
+
+.logo-color {
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: var(--accent-color);
+}
+.logo {
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: var(--black-color);
+}
+.logo {
+  margin-right: 93px;
+}
+.white-logo {
+  color: var(--black-color);
+}
+.dark-logo {
+  color: var(--white-color);
+}
+
+/* ============END COMPONENTS==============*/
+
+/* ========================STYLES INDEX.HTML========================= */
+/* ================BODY============= */
+.page {
+  font-family: var(--main-font);
+  background: var(--white-color);
+}
+/* ================END BODY============= */
+
+/* =========HEADER========= */
+.header .container {
+  display: flex;
+  align-items: center;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+}
+
+.nav-item:not(:last-child) {
+  margin-right: 52px;
+}
+
+.contact-head {
+  display: flex;
+  align-items: center;
+}
+.nav-link {
+  font-family: var(--main-font);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--secondary-color);
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--accent-color);
+}
+
+.mail-link-head {
+  font-family: var(--main-font);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--gray-color);
+  margin-left: auto;
+}
+
+.mail-link-head:hover,
+.mail-link-head:focus {
+  color: var(--accent-color);
+}
+.tel-link-head {
+  font-family: var(--main-font);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  color: var(--gray-color);
+}
+.tel-link-head:hover,
+.tel-link-head:focus {
+  color: var(--accent-color);
+}
+
+/* =========END HEADER========= */
+
+/* =========HERO========= */
+.hero {
+  background: #2f303a;
+}
+.hero-title {
+  font-family: var(--main-font);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  color: var(--white-color);
+}
+
+.modal-btn {
+  font-family: var(--main-font);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  color: var(--white-color);
+  background-color: var(--accent-color);
+}
+.modal-btn {
+  cursor: pointer;
+}
+
+/* =========END HERO========= */
+
+/* =========ADVANTAGES======= */
+.advantages {
+}
+.features-title {
+  font-family: var(--main-font);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--secondary-color);
+}
+.features-paragraph {
+  font-family: var(--main-font);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--gray-color);
+}
+
+/*======= END ADVANTAGES===== */
+
+/* ========ABOUT======== */
+.about {
+}
+
+/* ========END ABOUT======= */
+
+/* =========OUR TEAM========= */
+.our-team {
+  background: #f5f4fa;
+}
+.workers-name {
+  font-family: var(--main-font);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  color: var(--secondary-color);
+}
+.position {
+  font-family: var(--main-font);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.18;
+  color: var(--gray-color);
+}
+
+/* ========= END OUR TEAM========= */
+/* ==========CONTACTS==========*/
+.footer-info {
+  background: #2f303a;
+}
+.contact {
+  font-style: normal;
+}
+.address {
+  font-family: var(--main-font);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--white-color);
+}
+.footer-contact {
+  font-family: var(--main-font);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  color: #ffffff99;
+}
+/* ==========END CONTACTS==========*/
+/* ========================END STYLES INDEX.HTML========================= */
+
+/* ==============================PORTFOLIO============================== */
+/* =====================HEADER PORTFOLIO===================== */
+/* =====================active element відповідає за підсвітку силок================*/
+.active-element {
+  color: var(--accent-color);
+}
+/* =====================END HEADER PORTFOLIO===================== */
+
+/* =================MAIN SEACTION====================== */
+.filters {
+  color: var(--secondary-color);
+  background: #f5f4fa;
+}
+.filters:hover,
+.filters:focus {
+  color: floralwhite;
+  background: var(--accent-color);
+}
+.filters {
+  cursor: pointer;
+}
+.photo-title {
+  font-family: var(--main-font);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  color: var(--secondary-color);
+}
+.photo-paragraph {
+  font-family: var(--main-font);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+  color: var(--gray-color);
+}
+
+/* =================END MAIN SEACTION===================*/ ;
