@@ -103,6 +103,7 @@ img {
 .header .container {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
 .navigation {
@@ -145,6 +146,7 @@ img {
   letter-spacing: 0.02em;
   color: var(--gray-color);
   margin-left: auto;
+  margin-right: 51px;
 }
 
 .mail-link-head:hover,
