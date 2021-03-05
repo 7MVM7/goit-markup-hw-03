@@ -130,6 +130,9 @@ img {
   margin-left: auto;
 }
 .nav-link {
+  padding-top: 32px;
+  padding-bottom: 32px;
+
   font-family: var(--main-font);
   font-weight: 500;
   font-size: 14px;
@@ -144,6 +147,8 @@ img {
 }
 
 .mail-link-head {
+  padding-top: 32px;
+  padding-bottom: 32px;
   font-family: var(--main-font);
   font-weight: 500;
   font-size: 14px;
@@ -158,6 +163,8 @@ img {
   color: var(--accent-color);
 }
 .tel-link-head {
+  padding-top: 32px;
+  padding-bottom: 32px;
   font-family: var(--main-font);
   font-weight: 500;
   font-size: 14px;
@@ -181,17 +188,21 @@ img {
   background: #2f303a;
 }
 .hero-title {
+  max-width: 696px;
+  margin: auto;
+  text-align: center;
   font-family: var(--main-font);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   color: var(--white-color);
 }
-.hero-title {
-  max-width: 696px;
-  text-align: center;
-}
+
 .modal-btn {
+  display: inline-block;
+  min-width: 200px;
+  height: 50px;
+  border-radius: 4px;
   font-family: var(--main-font);
   font-weight: 700;
   font-size: 16px;
