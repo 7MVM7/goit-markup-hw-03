@@ -233,8 +233,14 @@ img {
   display: flex;
   margin: 0;
 }
-.features-paragraph:not(:last-child) {
-  margin-right: 30px;
+
+.features-paragraph {
+  flex-basis: calc(100% / 3 - 30px);
+  margin-left: 30px;
+}
+.features-title {
+  flex-basis: calc(100% / 3 - 30px);
+  margin-left: 30px;
 }
 .features-title {
   font-family: var(--main-font);
