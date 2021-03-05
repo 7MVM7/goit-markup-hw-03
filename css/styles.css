@@ -43,6 +43,10 @@ li {
 img {
   display: block;
 }
+.header {
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
 
 .visually-hidden {
   position: absolute !important;
@@ -123,6 +127,7 @@ img {
 .contact-head {
   display: flex;
   align-items: center;
+  margin-left: auto;
 }
 .nav-link {
   font-family: var(--main-font);
@@ -145,7 +150,6 @@ img {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--gray-color);
-  margin-left: auto;
   margin-right: 51px;
 }
 
@@ -171,6 +175,9 @@ img {
 
 /* =========HERO========= */
 .hero {
+  padding-top: 200px;
+  padding-bottom: 200px;
+  text-align: center;
   background: #2f303a;
 }
 .hero-title {
@@ -180,7 +187,10 @@ img {
   line-height: 1.36;
   color: var(--white-color);
 }
-
+.hero-title {
+  max-width: 696px;
+  text-align: center;
+}
 .modal-btn {
   font-family: var(--main-font);
   font-weight: 700;
@@ -191,6 +201,13 @@ img {
 }
 .modal-btn {
   cursor: pointer;
+}
+.modal-btn {
+  margin-top: 30px;
+  padding-top: 10px;
+  padding-right: 32px;
+  padding-bottom: 10px;
+  padding-left: 32px;
 }
 
 /* =========END HERO========= */
