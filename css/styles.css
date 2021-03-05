@@ -225,6 +225,16 @@ img {
 
 /* =========ADVANTAGES======= */
 .advantages {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.list {
+  display: flex;
+  margin: 0;
+}
+.features-paragraph:not(:last-child) {
+  margin-right: 30px;
 }
 .features-title {
   font-family: var(--main-font);
@@ -234,6 +244,7 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--secondary-color);
+  margin-bottom: 10px;
 }
 .features-paragraph {
   font-family: var(--main-font);
