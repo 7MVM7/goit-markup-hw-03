@@ -84,7 +84,7 @@ img {
   line-height: 1.19;
   color: var(--black-color);
 }
-.logo {
+.logo-margin {
   margin-right: 93px;
 }
 .white-logo {
@@ -277,6 +277,11 @@ img {
 /* ========END ABOUT======= */
 
 /* =========OUR TEAM========= */
+.team-list-content {
+  padding-top: 30px;
+  /* padding-bottom: 10px; */
+  text-align: center;
+}
 
 .title-team {
   margin-bottom: 50px;
@@ -298,6 +303,7 @@ img {
   font-size: 16px;
   line-height: 1.18;
   color: var(--secondary-color);
+  padding-bottom: 10px;
 }
 .position {
   font-family: var(--main-font);
@@ -311,9 +317,27 @@ img {
 /* ==========CONTACTS==========*/
 .footer-info {
   background: #2f303a;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
+
 .contact {
   font-style: normal;
+}
+
+.logo-footer {
+  display: block;
+  margin-bottom: 20px;
+}
+.address-map,
+.list-item-contact,
+.footer-contact {
+  display: flex;
+  flex-direction: column;
+}
+
+.list-item-contact:not(:last-child) {
+  margin-bottom: 9px;
 }
 .address {
   font-family: var(--main-font);
@@ -322,12 +346,14 @@ img {
   line-height: 1.71;
   color: var(--white-color);
 }
+
 .footer-contact {
   font-family: var(--main-font);
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   color: #ffffff99;
+  display: block;
 }
 /* ==========END CONTACTS==========*/
 /* ========================END STYLES INDEX.HTML========================= */
