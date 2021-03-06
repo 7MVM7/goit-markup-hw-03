@@ -233,7 +233,9 @@ img {
   padding-top: 94px;
   padding-bottom: 94px;
 }
-
+.list-advant {
+  margin-left: -30px;
+}
 .list {
   display: flex;
 }
@@ -265,12 +267,10 @@ img {
 
 /* ========ABOUT======== */
 .list-about {
-  padding-bottom: 94px;
   margin-left: -30px;
 }
 .title-about {
   margin-bottom: 50px;
-  padding-top: 94px;
 }
 .img-about {
   flex-basis: calc(100% / 3 - 30px);
@@ -290,6 +290,10 @@ img {
 .team-img {
   flex-basis: calc(100% / 4 - 30px);
   margin-left: 30px;
+  padding-bottom: 30px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 .our-team {
   background: #f5f4fa;
@@ -298,12 +302,16 @@ img {
   padding-bottom: 94px;
 }
 .workers-name {
+  padding-top: 30px;
+  padding-right: 59px;
+  margin-bottom: 10px;
+  padding-left: 60px;
+
   font-family: var(--main-font);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
   color: var(--secondary-color);
-  padding-bottom: 10px;
 }
 .position {
   font-family: var(--main-font);
@@ -379,9 +387,13 @@ img {
   padding-top: 94px;
 }
 .element-button {
-  height: 38px;
   margin-right: 8px;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  color: var(--secondary-color);
+  background: #f5f4fa;
 }
+
 .filters {
   font-family: var(--main-font);
   font-weight: 500;
@@ -390,10 +402,6 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
   border-radius: 4px;
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
-  color: var(--secondary-color);
-  background: #f5f4fa;
 }
 .filters:hover,
 .filters:focus {
@@ -410,19 +418,22 @@ img {
   max-width: 100%;
   height: auto;
 }
-.card-set {
+
+.pad-container {
   padding-bottom: 94px;
+}
+.card-set {
+  /* padding-bottom: 94px; */
   flex-wrap: wrap;
   margin-left: -30px;
   margin-top: -30px;
 }
 
 .card-foto {
-  flex-basis: calc(100% / 3 - 30);
+  flex-basis: calc(100% / 3 - 30px);
   margin-left: 30px;
   margin-top: 30px;
 
-  /* margin-left: -30px; */
   justify-content: center;
   border-top-left-radius: 1px;
   border-top-right-radius: 1px;
