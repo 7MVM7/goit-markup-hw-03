@@ -236,7 +236,6 @@ img {
 
 .list {
   display: flex;
-  margin-left: -30px;
 }
 
 .features-title {
@@ -258,7 +257,6 @@ img {
   letter-spacing: 0.03em;
 }
 .features {
-  max-width: 270px;
   flex-basis: calc(100% / 4 - 30px);
   margin-left: 30px;
 }
@@ -268,18 +266,17 @@ img {
 /* ========ABOUT======== */
 .title-about {
   margin-bottom: 50px;
+  padding-top: 94px;
 }
 .img-about {
   flex-basis: calc(100% / 3 - 30px);
   margin-left: 30px;
-  padding-bottom: 94px;
 }
 /* ========END ABOUT======= */
 
 /* =========OUR TEAM========= */
 .team-list-content {
   padding-top: 30px;
-  /* padding-bottom: 10px; */
   text-align: center;
 }
 
@@ -287,7 +284,6 @@ img {
   margin-bottom: 50px;
 }
 .team-img {
-  padding-top: 30px;
   flex-basis: calc(100% / 4 - 30px);
   margin-left: 30px;
 }
