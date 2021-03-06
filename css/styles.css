@@ -363,7 +363,31 @@ img {
 /* =====================END HEADER PORTFOLIO===================== */
 
 /* =================MAIN SEACTION====================== */
+
+/* ===============BUTTON============ */
+.center-button {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.main-port {
+  padding-top: 94px;
+}
+.element-button {
+  height: 38px;
+  margin-right: 8px;
+}
 .filters {
+  font-family: var(--main-font);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  border-radius: 4px;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
   color: var(--secondary-color);
   background: #f5f4fa;
 }
@@ -375,7 +399,42 @@ img {
 .filters {
   cursor: pointer;
 }
+/* =============END BUTTON=========== */
+
+/* ===========PORT FOTO============== */
+img {
+  max-width: 100%;
+  height: auto;
+}
+.card-set {
+  padding-bottom: 94px;
+  flex-wrap: wrap;
+  margin-left: -30px;
+  margin-top: -30px;
+}
+
+.card-foto {
+  flex-basis: calc(100% / 3 - 30);
+  margin-left: 30px;
+  margin-top: 30px;
+
+  /* margin-left: -30px; */
+  justify-content: center;
+  border-top-left-radius: 1px;
+  border-top-right-radius: 1px;
+}
+.card-content {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 24px;
+  padding-right: 24px;
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  border-bottom-right-radius: 1px;
+  border-bottom-left-radius: 1px;
+}
 .photo-title {
+  margin-bottom: 4px;
   font-family: var(--main-font);
   font-weight: 700;
   font-size: 18px;
