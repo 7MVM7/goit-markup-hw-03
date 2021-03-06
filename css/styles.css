@@ -46,6 +46,7 @@ img {
 .header {
   padding-top: 24px;
   padding-bottom: 25px;
+  /* border: 1px solid #ececec; */
 }
 
 .visually-hidden {
@@ -188,14 +189,17 @@ img {
   background: #2f303a;
 }
 .hero-title {
-  max-width: 696px;
-  margin: auto;
-  text-align: center;
-  font-family: var(--main-font);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
+  text-transform: uppercase;
   color: var(--white-color);
+  max-width: 696px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  letter-spacing: 0.06em;
+  font-family: var(--main-font);
 }
 
 .modal-btn {
@@ -225,23 +229,16 @@ img {
 
 /* =========ADVANTAGES======= */
 .advantages {
+  display: flex;
   padding-top: 94px;
   padding-bottom: 94px;
 }
 
 .list {
   display: flex;
-  margin: 0;
+  margin-left: -30px;
 }
 
-.features-paragraph {
-  flex-basis: calc(100% / 3 - 30px);
-  margin-left: 30px;
-}
-.features-title {
-  flex-basis: calc(100% / 3 - 30px);
-  margin-left: 30px;
-}
 .features-title {
   font-family: var(--main-font);
   font-weight: 700;
@@ -258,19 +255,42 @@ img {
   font-size: 14px;
   line-height: 1.71;
   color: var(--gray-color);
+  letter-spacing: 0.03em;
+}
+.features {
+  max-width: 270px;
+  flex-basis: calc(100% / 4 - 30px);
+  margin-left: 30px;
 }
 
 /*======= END ADVANTAGES===== */
 
 /* ========ABOUT======== */
-.about {
+.title-about {
+  margin-bottom: 50px;
 }
-
+.img-about {
+  flex-basis: calc(100% / 3 - 30px);
+  margin-left: 30px;
+  padding-bottom: 94px;
+}
 /* ========END ABOUT======= */
 
 /* =========OUR TEAM========= */
+
+.title-team {
+  margin-bottom: 50px;
+}
+.team-img {
+  padding-top: 30px;
+  flex-basis: calc(100% / 4 - 30px);
+  margin-left: 30px;
+}
 .our-team {
   background: #f5f4fa;
+  display: flex;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .workers-name {
   font-family: var(--main-font);
