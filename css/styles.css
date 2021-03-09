@@ -48,7 +48,7 @@ img {
 .header {
   padding-top: 24px;
   padding-bottom: 25px;
-  /* border: 1px solid #ececec; */
+  border-bottom: 1px solid #ececec;
 }
 
 .visually-hidden {
@@ -110,7 +110,6 @@ img {
 .header .container {
   display: flex;
   align-items: center;
-  justify-content: space-between;
 }
 
 .navigation {
@@ -271,6 +270,10 @@ img {
 /*======= END ADVANTAGES===== */
 
 /* ========ABOUT======== */
+
+.about {
+  padding-bottom: 94px;
+}
 .list-about {
   margin-left: -30px;
 }
@@ -284,9 +287,15 @@ img {
 /* ========END ABOUT======= */
 
 /* =========OUR TEAM========= */
+
+.foto-list {
+  margin-left: -30px;
+}
 .team-list-content {
   padding-top: 30px;
+  padding-right: 15px;
   padding-bottom: 30px;
+  padding-left: 15px;
   text-align: center;
 }
 
@@ -294,6 +303,7 @@ img {
   margin-bottom: 50px;
 }
 .team-img {
+  background-color: #ffffff;
   flex-basis: calc(100% / 4 - 30px);
   margin-left: 30px;
 
@@ -308,6 +318,7 @@ img {
   padding-bottom: 94px;
 }
 .workers-name {
+  margin-bottom: 10px;
   font-family: var(--main-font);
   font-weight: 500;
   font-size: 16px;
@@ -386,6 +397,7 @@ img {
 }
 .main-port {
   padding-top: 94px;
+  padding-bottom: 94px;
 }
 .element-button {
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
@@ -422,9 +434,6 @@ img {
 
 /* ===========PORT FOTO============== */
 
-.pad-container {
-  padding-bottom: 94px;
-}
 .card-set {
   flex-wrap: wrap;
   margin-left: -30px;
@@ -449,6 +458,7 @@ img {
   border: 1px solid #eeeeee;
   border-bottom-right-radius: 1px;
   border-bottom-left-radius: 1px;
+  border-top: none;
 }
 .photo-title {
   margin-bottom: 4px;
